@@ -9,9 +9,15 @@ body {
 }
 
 .header {
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 0;
+  flex-wrap: nowrap;
+  height:75px;
 }
 
 .profile-image {
@@ -20,6 +26,9 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin: 7px;
 }
 
 .logo {
@@ -45,4 +54,32 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 7px;
+  padding: 0;
 }
+
+li {
+  margin: 7px
+}
+
+.left{
+  display: flex;
+  align-items: center;
+}
+
+.links{
+  display: flex;
+  
+}
+
+.right{
+  display: flex;
+  align-items: center;
+}
+
+.notifications{
+margin-top: 15%;
+margin-bottom: 15%;
+margin: 7px;
+}
+
